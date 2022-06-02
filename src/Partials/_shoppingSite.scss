@@ -1,0 +1,33 @@
+.wrapper {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shopSiteWrapper {
+  display: flex;
+  flex-wrap: wrap;
+    h2 {
+      margin: 5px 0;
+      font-size: 1rem;
+      width: 200px;
+    }
+}
+.shopItem {
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 4 - 20px);
+  justify-content: space-between;
+  align-items: center;
+  img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+.loading {
+  font-size: 3rem;
+  margin-top: 50%;
+}

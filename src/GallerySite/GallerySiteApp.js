@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 
 const GallerySiteApp = () => {
+
   return (
     <div className="gallerySiteWrapper">
       <Link to="/">
